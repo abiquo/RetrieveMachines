@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-# TODO numero maquines noves (not possible)
-
 require 'abiquo-api'
 require 'pry'
 require 'uri'
