@@ -5,8 +5,6 @@ require 'pry'
 require 'uri'
 require 'trollop'
 
-#ruby vm-retrieve.rb -u admin -p xabiquo -s https://10.60.13.64:443/api/admin/datacenters
-
 
 $opts = Trollop::options do
     opt :source, "Api URL" , :type => :string , :short => "-s"          
